@@ -43,3 +43,4 @@
 - All 38 sitemap routes and required assets returned HTTP 200; an unknown route returned HTTP 404.
 - Production CSS contains the required `word-break: keep-all` rule.
 - Exact live Store identity was rechecked after deployment: Google Play HTTP 200; Apple lookup result count 1 with track ID `6797070786`.
+- 2026-09-18: Normalized Google Play and App Store controls to a shared 194×75 frame while preserving official artwork ratios; local build and check passed.
