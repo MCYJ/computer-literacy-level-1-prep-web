@@ -33,3 +33,13 @@
 - `word-break: keep-all` applies to all body and control text; long URLs retain emergency wrapping.
 - 12 substantive guides per locale plus FAQ, privacy, terms, support and contact.
 - Independent-product disclaimer appears throughout; no endorsement, secured-question or pass-guarantee claims.
+
+## Production deployment — 2026-09-18
+
+- Public repository: https://github.com/MCYJ/computer-literacy-level-1-prep-web
+- Production URL: https://mcyj.github.io/computer-literacy-level-1-prep-web/
+- Initial GitHub Pages deployment run `35354190614` passed.
+- Generated 38 indexable routes: 19 Korean and 19 English; total output is 40 HTML files including root redirect and custom 404.
+- All 38 sitemap routes and required assets returned HTTP 200; an unknown route returned HTTP 404.
+- Production CSS contains the required `word-break: keep-all` rule.
+- Exact live Store identity was rechecked after deployment: Google Play HTTP 200; Apple lookup result count 1 with track ID `6797070786`.
